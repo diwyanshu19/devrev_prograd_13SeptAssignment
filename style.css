@@ -57,7 +57,7 @@ aside .logo{
 .section1-srch{
     display: flex;
     align-items: baseline;
-    flex-basis: 350px;
+    flex-basis: 380px;
 }
 .input-box{
  flex-grow: 2;
@@ -65,6 +65,9 @@ margin-left: 1rem;
 }
 .input-box input{
     width: 100%;
+    padding: 0.2rem;
+    outline: none;
+    border-radius: 10px;
 }
 .search-user{
     display: flex;
@@ -92,7 +95,7 @@ margin-left: 1rem;
 }
 .threebuttons button{
     padding: 0.4rem;
-    background: rgba(34, 33, 33, 0.84);
+    background: rgba(43, 42, 42, 0.765);
     border: none;
     color: white;
     border-radius: 12px;
