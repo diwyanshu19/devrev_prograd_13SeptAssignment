@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    min-height: 100%;
+    font-size: 22px;
+    font-weight:600;
+    color: white;
+    background-color: rgb(0,0,0,0.8399);
+}
+body{
+    min-height: 100vh;
+    display: flex;
+   
+    /* overflow: hidden; */
+}
+.sect1{
+ min-width: 240px;
+ border-right: 0.7px solid gray;
+}
+.aside-first{
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+   
+}
+
+aside .logo{
+    display: flex;
+    gap: 10px;
+}
+.main{
+    flex-grow: 2;
+}
+.main-sect1-fix{
+    padding-bottom: 1rem;
+    border-bottom: 0.7px solid gray;
+}
+.main-section1{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: auto;
+    margin: auto;
+}
+.section1-search-box{
+    display: flex;
+    justify-content: space-between;
+}
+.section1-srch{
+    display: flex;
+    align-items: baseline;
+    flex-basis: 350px;
+}
+.input-box{
+ flex-grow: 2;
+margin-left: 1rem;
+}
+.input-box input{
+    width: 100%;
+}
+.search-user{
+    display: flex;
+    flex-basis: 300px;
+    justify-content: space-evenly;
+}
+.search-user .user-det{
+  display: flex;
+  justify-content: space-between;
+}
+.section1-user-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: bottom;
+
+}
+.user-big-det{
+   display: flex;
+}
+.threebuttons{
+   align-self: flex-end;
+   display: flex;
+   justify-content: space-evenly;
+   flex-basis: 250px;
+}
+.threebuttons button{
+    padding: 0.4rem;
+    background: rgba(34, 33, 33, 0.84);
+    border: none;
+    color: white;
+    border-radius: 12px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.main-section2{
+    display: flex;
+   max-height: 100%;
+    align-items: flex-start;
+
+}
+.section2-part1{
+    flex-grow: 2;
+}
+.section2-part2{
+ font-size: 16px;
+ font-weight: 400;
+  max-width: 30%;
+  height: 100%;
+  
+}
+.section2-part2-fix{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+ justify-content: space-evenly;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    gap: 1rem;
+}
+.section2-part2 .announcment .ann-box{
+   background-color: rgba(53, 52, 52, 0.915);
+   border-radius: 12px;
+   padding: 0.5rem;
+   padding-bottom: 0.7rem;
+}
+.ann-box .ann-box-cnt{
+    width: 85%;
+    margin: auto;
+   
+}
+.ann-box-cnt .ann-box-txt{
+    border-bottom: 0.7px solid gray;
+    padding-bottom: 0.5rem;
+}
+.People .people-box{
+    display: flex;
+    background-color: rgba(53, 52, 52, 0.915);
+    border-radius: 12px;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.people-box-cnt{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.3rem;
+}
+.People-fix{
+    width: 80%;
+    margin: auto;
+}
+.project-box-cnt-fix{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 1.2rem;
+    align-content: space-between;
+    width: 90%;
+    margin: auto;
+    
+}
+.box-project{
+    max-width: 290px;
+    
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgba(53, 52, 52, 0.915);
+    border-radius: 12px;
+    border-left: 5px solid rgba(109, 35, 156, 0.906);
+}
+.box-project-fix{
+    width: 85%;
+    margin: auto;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0.5rem;
+}
+.box-icons{
+    text-align: end;
+}
