@@ -8,11 +8,13 @@
     <title>Project</title>
 </head>
 <body>
+   
   <section class="sect1">
    <aside class="aside-first">
     <div class="logo">
       <div class="logo-img">🟢</div>
       <div class="logo-text">Dashboard</div>
+      <div id="close">−</div>
     </div>
     
     <div class="list_1">
@@ -67,6 +69,7 @@
   <section class="main-sect1-fix">
    <section class="main-section1">
     <div class="section1-search-box">
+        <div id = "burger">✛</div>
         <div class="section1-srch">
         <div class="srch-logo">
             <span>🔍</span>
@@ -269,3 +272,18 @@
    </article>
 </body>
 </html>
+<script>
+
+    document.getElementById("burger").addEventListener('click',(e)=>{
+
+    document.querySelector(".sect1").style.display = 'block';
+   
+    document.documentElement.style.setProperty('--trans','0px');
+    })
+    document.getElementById("close").addEventListener('click',(e)=>{
+        document.documentElement.style.setProperty('--trans','-2000px');
+      
+document.querySelector(".sect1").style.display = 'none';
+
+})
+</script>
